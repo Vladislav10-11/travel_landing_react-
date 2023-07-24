@@ -1,0 +1,27 @@
+.heroWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .heroText {
+    padding-right: 2rem;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 5.25rem;
+    font-weight: 700;
+    line-height: 5.375rem;
+    font-family: 'Poppins';
+  }
+  p {
+    font-size: 1.12rem;
+    font-family: 'Poppins';
+    line-height: 1.75rem;
+  }
+  .img {
+    width: 50%;
+    height: 45rem;
+    background-color: orange;
+  }
+}
