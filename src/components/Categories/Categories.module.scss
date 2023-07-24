@@ -1,0 +1,13 @@
+.categoriesNav {
+  display: flex;
+  justify-content: space-between;
+  .categoriesText {
+    font-family: 'Poppins';
+    width: 30%;
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 600;
+      line-height: 3.5rem;
+    }
+  }
+}
