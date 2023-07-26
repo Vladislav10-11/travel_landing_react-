@@ -1,0 +1,23 @@
+@import './../../variables.scss';
+
+.section {
+  font-family: $link-font;
+  .navWrapper {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      width: 30%;
+      font-size: 3.5rem;
+      font-weight: 600;
+      line-height: 4.1rem;
+    }
+    .arrows {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+  .cards {
+    display: flex;
+    grid-gap: 2rem;
+  }
+}

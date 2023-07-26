@@ -1,0 +1,22 @@
+@import './../../variables.scss';
+
+.card {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.87rem;
+  padding: 1.6rem 0;
+  width: 30%;
+  h4 {
+    font-size: 2.87rem;
+    color: $orange-color;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    font-size: 1.3rem;
+    color: $grey-color;
+  }
+}

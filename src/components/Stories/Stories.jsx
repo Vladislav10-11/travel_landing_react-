@@ -1,3 +1,4 @@
+import StoriesCard from '../StoriesCard/StoriesCard';
 import styles from './Stories.module.scss';
 
 const Stories = () => {
@@ -12,6 +13,11 @@ const Stories = () => {
           destinations in the world as our specialties. Start your adventure now! Nature has already
           called you!
         </p>
+        <div className={styles.cardWrapper}>
+          <StoriesCard text={'Succes Journey'} count={'12K+'} />
+          <StoriesCard text={'Awards Winning'} count={'16+'} />
+          <StoriesCard text={'Years Of Experience'} count={'20+'} />
+        </div>
       </div>
     </section>
   );
