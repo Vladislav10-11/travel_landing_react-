@@ -1,0 +1,33 @@
+@import './../../variables.scss';
+
+.storiesWrapper {
+  display: flex;
+  justify-content: space-between;
+  .storiesText {
+    width: 50%;
+    font-family: $link-font;
+    h2 {
+      color: $orange-color;
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.25rem;
+      letter-spacing: 0.25rem;
+    }
+    h3 {
+      font-size: 3.5rem;
+      line-height: 4.125rem;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.62rem;
+    }
+  }
+  .storiesImg {
+    width: 40%;
+    height: 45rem;
+    background-color: $orange-color;
+    margin-right: 5rem;
+  }
+}

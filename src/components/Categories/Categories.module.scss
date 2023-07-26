@@ -1,3 +1,4 @@
+@import './../../variables.scss';
 .categoriesNav {
   display: flex;
   justify-content: space-between;
@@ -10,4 +11,14 @@
       line-height: 3.5rem;
     }
   }
+
+  .arrows {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.categoriesCards {
+  display: flex;
+  gap: 2rem;
 }

@@ -1,44 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-$orange-color: #F66F4D;
-$link-color:#2E476B;
-$link-font: "Poppins", sans-serif;
+@import './../../variables.scss';
 
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .navWrapper {
-    display: flex;
+  display: flex;
 
-    .menuwrapper{
-        display: flex;
-        list-style-type: none;
-        gap: 2.25em;
-        >li>a {
-            text-decoration: none;
-            color: $link-color;
-            font-family: $link-font;
-            font-size: 1rem;
-        }
+  .menuwrapper {
+    display: flex;
+    list-style-type: none;
+    gap: 2.25em;
+    > li > a {
+      text-decoration: none;
+      color: $link-color;
+      font-family: $link-font;
+      font-size: 1rem;
     }
-    
-    .logo {
-        display: flex;
-        gap: 0.4em;
-        font-family: $link-font;
-    }
+  }
+
+  .logo {
+    display: flex;
+    gap: 0.4em;
+    font-family: $link-font;
+  }
 }
 
-
-
 .buttonwrapper {
-display: flex;
-gap: 0.4em;
-color: $orange-color;
-border: 1px solid;
-padding: 0rem 1.5rem;
-font-size: 1rem;
-border-radius: 1.6rem ;
-font-family: $link-font;
+  display: flex;
+  gap: 0.4em;
+  color: $orange-color;
+  border: 1px solid;
+  padding: 0rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 1.6rem;
+  font-family: $link-font;
 }

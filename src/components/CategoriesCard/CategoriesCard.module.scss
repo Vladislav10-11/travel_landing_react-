@@ -1,0 +1,26 @@
+@import './../../variables.scss';
+
+.categoriesCardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    font-family: $link-font;
+    text-align: center;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem;
+  }
+  .categoriesCard {
+    width: 10.6rem;
+    height: 14.3rem;
+    flex-shrink: 0;
+
+    img {
+      border-radius: 5.3rem;
+      width: 100%;
+    }
+  }
+}

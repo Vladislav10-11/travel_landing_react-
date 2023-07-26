@@ -1,6 +1,22 @@
+import CategoriesCard from '../CategoriesCard/CategoriesCard';
 import ArrowLeft from './../../assets/Arrow.svg';
 import ArrowRight from './../../assets/ArrowRight.svg';
 import styles from './Categories.module.scss';
+
+const categories = [
+  {
+    title: 'Beach',
+    img: '/src/assets/nature.png',
+  },
+  {
+    title: 'Desert',
+    img: '/src/assets/nature.png',
+  },
+  {
+    title: 'Mountain',
+    img: '/src/assets/nature.png',
+  },
+];
 
 function Categories() {
   return (
@@ -17,6 +33,11 @@ function Categories() {
           <img src={ArrowLeft} alt='' />
           <img src={ArrowRight} alt='' />
         </div>
+      </div>
+      <div className={styles.categoriesCards}>
+        {categories.map((item) => (
+          <CategoriesCard key={item.title} title={item.title} img={item.img} />
+        ))}
       </div>
     </section>
   );
